@@ -70,17 +70,21 @@ input{
     font-family: "Poppins", sans-serif;
 }
 
-
-button{
-    border: 1px solid #7741fc;
+a:hover{
     color: #4a8de4f5;
+}
+
+button{ 
+    border: 1px solid #7741fc;
+    color: #7741fc;
     font-size: 18px;
     letter-spacing: 1px;
     font-weight: 600;
-    text-align: center;
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
     transition: .3s ease;
+    justify-content: center;
+    align-items: center;
 }
 
 button:hover{
