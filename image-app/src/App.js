@@ -12,6 +12,9 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <header>
+          {!isAuth ? <p>Welcome to iStore</p> : <button>Log Out</button>}
+        </header>
         <Routes>
           <Route path="/" element={< SignIn setIsAuth={ setIsAuth }/>} />
           <Route path="/signup" element={< SignUp />} />
